@@ -307,14 +307,18 @@
     }
 
     .star {
-      position: absolute;
-      z-index: 2;
-      right: 6px;
-      top: 43px;
-      color: var(--orange-2);
-      font-size: 2rem;
-      transform: rotate(7deg);
-    }
+  position: absolute;
+  inset: 0;
+  z-index: 3;
+  display: grid;
+  place-items: center;
+  color: white;
+  font-family: 'Traditional Arabic', 'Amiri', 'Segoe UI', Arial, sans-serif;
+  font-size: 2.6rem;
+  font-weight: 900;
+  direction: rtl;
+   transform: translate(50px, -20px);
+}
 
     .orbit {
       position: absolute;
